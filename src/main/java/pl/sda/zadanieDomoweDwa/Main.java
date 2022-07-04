@@ -2,14 +2,7 @@ package pl.sda.zadanieDomoweDwa;
 import java.awt.geom.Point2D;
 public class Main{
     public static void main(String[] args) {
-
-    /*    for (int i = 0; i < 2; i++) {
-            for (int j = 0; j < 9; j++) {
-             float X = (j);
-                System.out.print(j + ", ");
-            } float Y =(i);
-            System.out.print(i);
-            System.out.println("");*/
+        
         Point point1 = new Point(3, 4);
         System.out.println(point1);
         Point point2 = new Point(7, 1);
@@ -27,5 +20,5 @@ public class Main{
         System.out.println(line);
         System.out.println(line.getDistance());
 
-    }
-}
+
+}}
